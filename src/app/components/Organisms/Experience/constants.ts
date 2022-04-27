@@ -27,7 +27,6 @@ export const ExperienceData = {
       'My front-end size team is 8 member',
       'My job is: I am build web app using ReactJS for business journey, campaign, segment customer, design tool template',
       'Technology used during work are: html/css/js, Typescript, react, redux, redux-saga, hook, npm, yarn, webpack, material ui, tailwindcss, atomic design,...',
-      'Apply Typescript for some new project',
       'Using bitbucket, git for management source code, using trello for management task',
       'Using npm and webpack build component',
       'Using NVIM for code application',
