@@ -1,4 +1,14 @@
 export const EducationData = {
+  current: {
+    time: '03/2022 to current',
+    headerContent: 'Learn And Improve My Skill',
+    content: [
+      'Learning Course NextJS in Udemy',
+      'Learning GOLang programing language',
+      'RAD Docker and apply for my project',
+      'Try Build my project base on react typescript and golang',
+    ],
+  },
   '08-2017': {
     time: '08/2017 to 09/2021',
     headerContent: 'Software Engineering - VanLang University',
