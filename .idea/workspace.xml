@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca2474f-d35d-42f4-b276-3b752abca515" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/components/Organisms/Experience/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Organisms/Experience/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/PhongDang.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +55,12 @@
     "last_opened_file_path": "//wsl$/Ubuntu-18.04/home/phongdang/code/blog-github",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "\\\\wsl$\\Ubuntu-18.04\\home\\phongdang\\code\\blog-github\\node_modules\\stylelint",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "ts.external.directory.path": "\\\\wsl$\\Ubuntu-18.04\\home\\phongdang\\code\\blog-github\\node_modules\\typescript\\lib"
   }
 }]]></component>
@@ -102,7 +111,8 @@
       <workItem from="1650601026580" duration="37000" />
       <workItem from="1650610032792" duration="1000" />
       <workItem from="1651054554869" duration="105000" />
-      <workItem from="1651054716100" duration="1537000" />
+      <workItem from="1651054716100" duration="2242000" />
+      <workItem from="1651057060307" duration="93000" />
     </task>
     <servers />
   </component>
