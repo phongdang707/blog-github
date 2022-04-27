@@ -1,0 +1,50 @@
+// Libraries
+{{#if wantMemo}}
+import React, { memo } from 'react';
+{{else}}
+import React from 'react';
+{{/if}}
+{{#if wantTranslations}}
+import { useTranslation } from 'react-i18next';
+import { messages } from './messages';
+{{/if}}
+
+{{#if wantStyledComponents}}
+// Styled
+import { {{componentName}}Wrapper } from './styled';
+{{/if}}
+
+interface {{componentName}}Props {}
+
+{{#if wantMemo}}
+export const {{ properCase componentName }}:React.FC<{{componentName}}Props> = memo((props) => {
+{{else}}
+export const {{ properCase componentName }}:React.FC<{{componentName}}Props> = (props) => {
+{{/if}}
+  {{#if wantTranslations}}
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const { t, i18n } = useTranslation();
+  {{/if}}
+
+  return (
+  {{#if wantStyledComponents}}
+  <{{componentName}}Wrapper>
+  {{else}}
+  <div>
+  {{/if}}
+    {{#if wantTranslations}}
+    {t('')}
+    {/*  {t(...messages.someThing())}  */}
+    {{/if}}
+  {{#if wantStyledComponents}}
+  </{{componentName}}Wrapper>
+  {{else}}
+  </div>
+  {{/if}}
+  );
+
+{{#if wantMemo}}
+});
+{{else}}
+};
+{{/if}}
