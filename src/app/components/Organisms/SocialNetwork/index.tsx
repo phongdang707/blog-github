@@ -50,6 +50,63 @@ export const SocialNetwork: React.FC<SocialNetworkProps> = props => {
           </svg>
           @phongdang707
         </Button>
+        <Button
+          className="pd-btn-link gap-2 pd-btn-primary hover:pd-btn-primary w-fit"
+          onClick={() =>
+            handleOpenNewTab('https://www.npmjs.com/~phongdang707')
+          }
+        >
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            strokeWidth="0"
+            viewBox="0 0 512 512"
+            aria-hidden="true"
+            focusable="false"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="512" height="512" rx="15%" fill="#fff" />
+            <path
+              fill="none"
+              stroke="#cb3837"
+              stroke-width="22"
+              d="m234 311h213v-112H65v112h113V210m-12 123h90M133 232v68m112-68v45m45-67v90m67-68v68m45-68v68"
+            />
+          </svg>
+          @phongdang707
+        </Button>
+        <Button
+          className="pd-btn-link gap-2 pd-btn-primary hover:pd-btn-primary w-fit"
+          onClick={() =>
+            handleOpenNewTab('https://hub.docker.com/u/phongdang707')
+          }
+        >
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            strokeWidth="0"
+            viewBox="0 0 512 512"
+            aria-hidden="true"
+            focusable="false"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="512" height="512" rx="15%" fill="#fff" />
+            <path
+              stroke="#066da5"
+              stroke-width="38"
+              d="M296 226h42m-92 0h42m-91 0h42m-91 0h41m-91 0h42m8-46h41m8 0h42m7 0h42m-42-46h42"
+            />
+            <path
+              fill="#066da5"
+              d="m472 228s-18-17-55-11c-4-29-35-46-35-46s-29 35-8 74c-6 3-16 7-31 7H68c-5 19-5 145 133 145 99 0 173-46 208-130 52 4 63-39 63-39"
+            />
+          </svg>
+          @phongdang707
+        </Button>
 
         <Button className="pd-btn-link gap-2 pd-btn-primary hover:pd-btn-primary w-fit">
           <svg
