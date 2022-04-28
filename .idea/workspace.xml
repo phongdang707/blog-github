@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca2474f-d35d-42f4-b276-3b752abca515" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/components/Organisms/Education/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/Organisms/Education/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +107,9 @@
       <workItem from="1650610032792" duration="1000" />
       <workItem from="1651054554869" duration="105000" />
       <workItem from="1651054716100" duration="2242000" />
-      <workItem from="1651057060307" duration="393000" />
+      <workItem from="1651057060307" duration="1127000" />
+      <workItem from="1651116577256" duration="1189000" />
+      <workItem from="1651119875644" duration="326000" />
     </task>
     <servers />
   </component>
