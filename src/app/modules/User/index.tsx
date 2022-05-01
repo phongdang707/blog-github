@@ -21,6 +21,7 @@ import { Navbar } from 'app/components/Organisms';
 // Routes
 import rootRoutes from './routes';
 import { themeActions } from '../../../styles/theme/slice';
+import { FooterUser } from '../../components/Molecules';
 
 export function User() {
   // Translate
@@ -60,6 +61,7 @@ export function User() {
 
         <Redirect to={'/'} />
       </Switch>
+      <FooterUser />
     </Router>
   );
 }
