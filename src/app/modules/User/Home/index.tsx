@@ -30,7 +30,7 @@ export const Home: React.FC<HomeProps> = memo(props => {
   // const history = useHistory();
 
   return (
-    <HomeWrapper className="container mx-auto px-96 pt-20">
+    <HomeWrapper className="pt-20 w-10/12 md:w-7/12 lg:w-5/12 m-auto">
       {t('')}
       <HeaderInfor />
       <Work />
