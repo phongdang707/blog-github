@@ -1,9 +1,0 @@
-// tsconfig.paths.json
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-//      "@Atoms/*": ["app/components/Atoms/*"]
-    }
-  }
-}

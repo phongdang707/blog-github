@@ -33,5 +33,4 @@
       "allowSyntheticDefaultImports": true
     }
   },
-  "extends": "./tsconfig.paths.json"
 }
