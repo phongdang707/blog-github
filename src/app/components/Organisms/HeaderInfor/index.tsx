@@ -9,7 +9,7 @@ export const HeaderInfor: React.FC<HeaderInforProps> = props => {
     <>
       <div className="flex justify-center">
         <div className="flex-1">
-          <H1 className="font-bold text-left">Phong Dang</H1>
+          <H1 className="font-bold text-left">Dang Van Quoc Phong</H1>
           <span>Software Engineer ( Software Engineer )</span>
         </div>
         <div className="flex-none">
