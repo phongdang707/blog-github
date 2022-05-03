@@ -20,8 +20,8 @@ export const Navbar: React.FC<NavbarProps> = memo(props => {
     >
       <div className="container mx-auto pd-navbar">
         <div className="pd-navbar-start">
-          <div className="mr-5">
-            <a href="/" className="pd-btn pd-btn-ghost normal-case text-xl">
+          <div className="mr">
+            <div className="pd-btn pd-btn-ghost normal-case text-xl">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 version="1.1"
@@ -151,7 +151,7 @@ export const Navbar: React.FC<NavbarProps> = memo(props => {
                 </g>
               </svg>
               Phong Dang
-            </a>
+            </div>
           </div>
           <div className="hidden md:flex gap-x-6">
             <Link className="m-auto">Works</Link>
